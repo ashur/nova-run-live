@@ -1,11 +1,12 @@
 let tmp = nova.path.join( nova.extension.path, "tmp" );
 
+nova.fs.mkdir( tmp );
+
 exports.activate = () =>
 {
 	if( nova.fs.listdir( tmp ).length > 0)
 	{		
 		nova.fs.rmdir( tmp );
-		nova.fs.mkdir( tmp );
 	}
 };
 
