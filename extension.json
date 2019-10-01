@@ -2,7 +2,7 @@
 	"identifier": "cab.ashur.runlive",
 	"name": "Run Live",
 	"author": "Ashur Cabrera",
-	"description": "Run snippets",
+	"description": "Select a snippet of code and run it in the Nova extension runtime.",
 	"version": "1.0",
 	"main": "main.js",
 	"commands": {
