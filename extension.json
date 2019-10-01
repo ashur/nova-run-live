@@ -1,0 +1,36 @@
+{
+	"identifier": "cab.ashur.runlive",
+	"name": "Run Live",
+	"author": "Ashur Cabrera",
+	"description": "Run snippets",
+	"version": "1.0",
+	"main": "main.js",
+	"commands": {
+		"editor": [
+			{
+				"title": "Run Editor",
+				"command": "cab.ashur.runlive.run-editor",
+				"shortcut": "cmd-shift-,",
+				"when": "editorHasFocus",
+				"filter": {
+					"syntaxes": ["javascript"]
+				}
+			},
+			{
+				"title": "Run Selection",
+				"command": "cab.ashur.runlive.run-selection",
+				"shortcut": "cmd-shift-.",
+				"when": "editorHasFocus",
+				"filter": {
+					"syntaxes": ["javascript"]
+				}
+			},
+		]
+	},
+
+	"entitlements": {
+		"filesystem": "readwrite",
+		"process": true,
+		"requests": true
+	}
+}
