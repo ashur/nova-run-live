@@ -10,17 +10,24 @@ exports.activate = () =>
 	}
 };
 
-nova.commands.register( "cab.ashur.runlive.run-editor", textEditor =>
+nova.commands.register( "cab.ashur.runlive.run", textEditor =>
 {
-	let range = new Range( 0, textEditor.document.length )
-	let contents = textEditor.document.getTextInRange( range );
+	let ranges = textEditor.selectedRanges;
+	let selections = ranges.map( range =>
+	{
+		return textEditor.document.getTextInRange( range ).trim();
+	});
+
+	let contents = selections.join( "\n" );
+
+	/* Zero-length selection */
+	if( ranges.length === 1 && contents.length === 0 )
+	{
+		let documentRange = new Range( 0, textEditor.document.length );
+		contents = textEditor.document.getTextInRange( documentRange );
+	}
 
 	runText( contents );
-});
-
-nova.commands.register( "cab.ashur.runlive.run-selection", textEditor =>
-{
-	runText( textEditor.selectedText );
 });
 
 function runText( text )
