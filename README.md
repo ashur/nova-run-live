@@ -7,15 +7,17 @@ Select a snippet of code and run it in the Nova extension runtime.
 Paste the following into a new JavaScript document:
 
 ```javascript
-console.log( "hello, world" );
+console.log( "hello" );
+console.log( "dolly" );
+console.log( "world" );
 ```
 
-Select the text and press `Command-Shift-.`, or press `Command-Shift-,` to run the entire document:
+Press `Command-Shift-.` to execute the selected text:
 
-```
-Run Live[15:49:19.987000] hello, world
-```
+![](./assets/run-selection.gif)
+
+> 💡 If no text is selected, the contents of the entire document will be run.
 
 ## Notes
 
-Selections which call `require` will fail
+Selections which call `require` will fail.
