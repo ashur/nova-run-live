@@ -5,6 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.2] - 2020-01-07
+### Added
+- `requests` entitlement
+- Extension icon
+- Extension metadata
+- In-extension README and CHANGELOG
+
+### Changed
+- Extension identifier to `ashur.RunLive`
+
 ## [1.1.1] - 2019-10-31
 ### Added
 - Nova extension bundle in repo

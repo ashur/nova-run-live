@@ -1,26 +1,34 @@
 {
-	"identifier": "cab.ashur.runlive",
+	"identifier": "ashur.RunLive",
 	"name": "Run Live",
 	"author": "Ashur Cabrera",
 	"description": "Run snippets of JavaScript in the Nova extension runtime.",
-	"version": "1.1.1",
+	"version": "1.2",
+	"categories": [],
+
+	"homepage": "https://dev.panic.com/ashur/nova-run-live",
+	"repository": "https://dev.panic.com/ashur/nova-run-live",
+	"bugs": "https://dev.panic.com/ashur/nova-run-live/issues",
+
 	"main": "main.js",
+
 	"commands": {
 		"editor": [
 			{
 				"title": "Run Nova Snippet",
-				"command": "cab.ashur.runlive.run",
+				"command": "ashur.RunLive.run",
 				"shortcut": "cmd-shift-.",
 				"when": "editorHasFocus",
 				"filter": {
 					"syntaxes": ["javascript"]
 				}
-			},
+			}
 		]
 	},
 
 	"entitlements": {
 		"filesystem": "readwrite",
 		"process": true,
+		"requests": true
 	}
 }
