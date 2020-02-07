@@ -13,3 +13,7 @@ Select a snippet of text in a JavaScript document, then press `Command-Shift-.` 
 - Launch Subprocesses
 
 so it can execute snippets that use those portions of the Nova extension API.
+
+## Notes
+
+Selections that call `require()` are not supported.
