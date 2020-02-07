@@ -14,8 +14,10 @@ Select a snippet of text in a JavaScript document, then press `Command-Shift-.` 
 - Send Network Requests
 - Launch Subprocesses
 
-so it can execute snippets that use those portions of the Nova extension API.
+so it can execute snippets that use those portions of the [Nova extension API][entitlements].
 
 ## Notes
 
 Selections which call `require()` are not supported.
+
+[entitlements]: https://novadocs.panic.com/extensions/#entitlements
