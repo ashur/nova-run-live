@@ -22,5 +22,6 @@
 	"entitlements": {
 		"filesystem": "readwrite",
 		"process": true,
+		"requests": true
 	}
 }
