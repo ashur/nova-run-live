@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 ### Added
 - `requests` entitlement
+- Extension icon
+- Extension metadata
+- In-extension README and CHANGELOG
 
 ### Changed
 - Extension identifier to `ashur.RunLive`
