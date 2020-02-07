@@ -1,7 +1,7 @@
 {
 	"identifier": "ashur.RunLive",
 	"name": "Run Live",
-	"author": "Ashur Cabrera",
+	"vendor": "Ashur Cabrera",
 	"description": "Run snippets of JavaScript in the Nova extension runtime.",
 	"version": "1.2",
 	"categories": [],
