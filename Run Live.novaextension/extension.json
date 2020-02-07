@@ -1,5 +1,5 @@
 {
-	"identifier": "cab.ashur.runlive",
+	"identifier": "ashur.RunLive",
 	"name": "Run Live",
 	"author": "Ashur Cabrera",
 	"description": "Run snippets of JavaScript in the Nova extension runtime.",
@@ -9,7 +9,7 @@
 		"editor": [
 			{
 				"title": "Run Nova Snippet",
-				"command": "cab.ashur.runlive.run",
+				"command": "ashur.RunLive.run",
 				"shortcut": "cmd-shift-.",
 				"when": "editorHasFocus",
 				"filter": {

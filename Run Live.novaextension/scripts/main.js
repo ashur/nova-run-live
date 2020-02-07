@@ -10,7 +10,7 @@ exports.activate = () =>
 	}
 };
 
-nova.commands.register( "cab.ashur.runlive.run", textEditor =>
+nova.commands.register( "ashur.RunLive.run", textEditor =>
 {
 	let ranges = textEditor.selectedRanges;
 	let selections = ranges.map( range =>
