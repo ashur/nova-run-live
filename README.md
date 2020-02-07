@@ -1,29 +1,21 @@
 # Run Live
 
-Select a snippet of code and run it in the Nova extension runtime.
+Select a snippet of text in a JavaScript document, then press `Command-Shift-.` to execute it in the Nova extension runtime.
 
-## Installation
-
-1. Download the [latest](https://dev.panic.com/ashur/nova-run-live/-/archive/latest/nova-run-live-latest.zip) release archive
-1. Unzip the archive
-1. Double-click `Run Live.novaextension` to install in Nova
-
-## Usage
-
-Paste the following into a new JavaScript document:
-
-```javascript
-console.log( "hello" );
-console.log( "dolly" );
-console.log( "world" );
-```
-
-Press `Command-Shift-.` to execute the selected text:
-
-![](./assets/run-selection.gif)
+![](./Run%20Live.novaextension/assets/example.gif)
 
 > 💡 If no text is selected, the contents of the entire document will be run.
 
+## Entitlements
+
+**Run Live** requests all available entitlements:
+
+- Read & Write Files
+- Send Network Requests
+- Launch Subprocesses
+
+so it can execute snippets that use those portions of the Nova extension API.
+
 ## Notes
 
-Selections which call `require` will fail.
+Selections which call `require()` are not supported.
