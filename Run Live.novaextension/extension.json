@@ -3,7 +3,7 @@
 	"name": "Run Live",
 	"vendor": "Ashur Cabrera",
 	"description": "Run snippets of JavaScript in the Nova extension runtime.",
-	"version": "1.2",
+	"version": "1.2.1",
 	"categories": [],
 
 	"homepage": "https://dev.panic.com/ashur/nova-run-live",
