@@ -1,3 +1,10 @@
+## Version 1.2.1
+### Changed
+- Improved error handling in case of unwritable temporary file
+
+### Fixed
+- Fixed rare error caused by missing temporary folder
+
 ## Version 1.2
 ### Added
 - `requests` entitlement
