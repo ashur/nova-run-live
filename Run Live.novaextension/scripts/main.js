@@ -30,14 +30,13 @@ function runText( text )
 	if( text )
 	{
 		let basename = `${Date.now()}.js`;
-
 		let path = nova.path.join( tmp, basename );
-
-		let file = nova.fs.open( path, "w" );
-		file.write( text );
 
 		try
 		{
+			let file = nova.fs.open( path, "w" );
+			file.write( text );
+
 			require( `../tmp/${basename}` );
 		}
 		catch( error )
