@@ -5,6 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.2.1] - 2020-03-03
+### Added
+- Added `prepublish` Nova run task
+
+### Changed
+- Improved error handling in case of unwritable temporary file
+
+### Fixed
+- Fixed rare error caused by missing `tmp` folder
+
 ## [1.2] - 2020-01-07
 ### Added
 - `requests` entitlement

@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "clean" : {
+      "enabled" : true,
+      "script" : "# Clean extension bundle before submitting\nrm -r Run\\ Live.novaextension\/tmp"
+    }
+  },
+  "identifier" : "476AFBE0-1ACF-4DDA-A69F-CCC635078CC4"
+}
