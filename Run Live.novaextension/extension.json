@@ -27,6 +27,7 @@
 	},
 
 	"entitlements": {
+		"clipboard": true,
 		"filesystem": "readwrite",
 		"process": true,
 		"requests": true

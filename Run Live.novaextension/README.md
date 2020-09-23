@@ -8,6 +8,7 @@ Select a snippet of text in a JavaScript document, then press `Command-Shift-.` 
 
 **Run Live** requests all available entitlements:
 
+- Access Clipboard
 - Read & Write Files
 - Send Network Requests
 - Launch Subprocesses

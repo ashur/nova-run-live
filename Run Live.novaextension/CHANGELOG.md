@@ -1,3 +1,7 @@
+## Unreleased
+### Added
+- Support for the [`clipboard` entitlement](https://docs.nova.app/extensions/#entitlements) added in Nova 1.2
+
 ## Version 1.2.1
 ### Changed
 - Improved error handling in case of unwritable temporary file
