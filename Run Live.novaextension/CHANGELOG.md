@@ -1,4 +1,4 @@
-## Unreleased
+## Version 1.3
 ### Added
 - Support for the [`clipboard` entitlement](https://docs.nova.app/extensions/#entitlements) added in Nova 1.2
 
