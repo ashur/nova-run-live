@@ -6,9 +6,9 @@
 	"version": "1.3.0",
 	"categories": [],
 
-	"homepage": "https://dev.panic.com/ashur/nova-run-live",
-	"repository": "https://dev.panic.com/ashur/nova-run-live",
-	"bugs": "https://dev.panic.com/ashur/nova-run-live/issues",
+	"homepage": "https://github.com/ashur/nova-run-live",
+	"repository": "https://github.com/ashur/nova-run-live",
+	"bugs": "https://github.com/ashur/nova-run-live/issues",
 
 	"main": "main.js",
 
